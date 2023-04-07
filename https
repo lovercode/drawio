@@ -1,9 +1,159 @@
-<mxfile host="app.diagrams.net" modified="2023-04-07T07:17:54.869Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" version="21.1.2" etag="d2QW8GR6olmBnGqUyTyF" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-07T08:20:34.912Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="J1QR21j5Tq-3g4KrH79p" version="21.1.2" type="github">
   <diagram name="第 1 页" id="-u63k4Q6MbI8VhMO0CMS">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="1090" as="sourcePoint" />
+            <mxPoint x="360" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-2" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="1080" as="sourcePoint" />
+            <mxPoint x="160" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-3" value="Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-4" value="Client" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="1090" as="sourcePoint" />
+            <mxPoint x="560" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-6" value="中间证书机构" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="190" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="350" as="sourcePoint" />
+            <mxPoint x="560" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-9" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffd9a8;strokeColor=#d4e3fe;" vertex="1" parent="1">
+          <mxGeometry x="400" y="250" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-10" value="网站域名&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;申请者&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;公钥&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-11" value="申请证书" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="360" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="520" as="sourcePoint" />
+            <mxPoint x="360" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-13" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffd9a8;strokeColor=#d4e3fe;" vertex="1" parent="1">
+          <mxGeometry x="373" y="400" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-14" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;签发机构&lt;br&gt;过期时间&lt;br&gt;网站域名&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;申请者&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;公钥&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="373" y="420" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-15" value="颁发证书" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="530" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-16" value="CA私钥&lt;br&gt;对信息签名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#ffecd5;" vertex="1" parent="1">
+          <mxGeometry x="465" y="410" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-17" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="1090" as="sourcePoint" />
+            <mxPoint x="720" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-18" value="Root CA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="685" y="190" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="290" as="sourcePoint" />
+            <mxPoint x="720" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-20" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffd9a8;strokeColor=#d4e3fe;" vertex="1" parent="1">
+          <mxGeometry x="615" y="220" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-21" value="CA信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="615" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="330" as="sourcePoint" />
+            <mxPoint x="560" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-23" value="Root CA用私钥&lt;br&gt;对中间机构签名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="290" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-24" value="root ca对&lt;br&gt;中间机构的签名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#ffecd5;" vertex="1" parent="1">
+          <mxGeometry x="450" y="460" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="580" as="sourcePoint" />
+            <mxPoint x="350" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-26" value="随机数+hello" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="540" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="640" as="sourcePoint" />
+            <mxPoint x="160" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-28" value="随机数+证书+hello done" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="605" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-30" value="证书校验&lt;br&gt;用root ca的公钥解密，验证中间机构&lt;br&gt;用中间机构公钥解密，验证网站信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#ffe4a8;" vertex="1" parent="1">
+          <mxGeometry x="20" y="690" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="165" y="800" as="sourcePoint" />
+            <mxPoint x="355" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-32" value="生成随机数pre-master&lt;br&gt;并用公钥加密" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="175" y="760" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-33" value="私钥解密出&lt;br&gt;随机数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#ffe4a8;" vertex="1" parent="1">
+          <mxGeometry x="310" y="820" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="355" y="1030" as="sourcePoint" />
+            <mxPoint x="160" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-35" value="我方随机数&lt;br&gt;对方随机数&lt;br&gt;pre-master&lt;br&gt;生成对称密钥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#ffe4a8;" vertex="1" parent="1">
+          <mxGeometry x="115" y="885" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-36" value="我方随机数&lt;br&gt;对方随机数&lt;br&gt;pre-master&lt;br&gt;生成对称密钥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#ffe4a8;" vertex="1" parent="1">
+          <mxGeometry x="300" y="885" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="1010" as="sourcePoint" />
+            <mxPoint x="360" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-38" value="加密传输商量过的参数进行确认" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="975" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LiZHcOAi2LPvmgds0UrH-39" value="加密传输商量过的参数进行确认" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="1040" width="190" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
