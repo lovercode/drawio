@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-08T08:11:50.627Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="E7YFQgbff-mTsdXa7GJx" version="21.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-08T08:12:12.321Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="5x0WHYCvxkUPTeLLD4qy" version="21.1.2" type="github" pages="3">
   <diagram name="https" id="-u63k4Q6MbI8VhMO0CMS">
     <mxGraphModel dx="1434" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -325,6 +325,12 @@
         </mxCell>
         <mxCell id="CjFh04IEUfaLK9N_Pmun-28" value="Linux 实际设置为 30 秒" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="50" y="500" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjFh04IEUfaLK9N_Pmun-29" value="主机 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="125" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjFh04IEUfaLK9N_Pmun-31" value="主机 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="414" y="125" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
