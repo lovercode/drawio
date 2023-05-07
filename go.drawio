@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-07T15:18:36.677Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="VdnTYc1JRQX59pI-G60H" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-07T15:21:54.584Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="By6ude9klUW7fENH4PdD" version="21.1.7" type="github">
   <diagram name="slice" id="216m6hlyoADe2_kHkdoC">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,8 +94,8 @@
         <mxCell id="BZ9-GxFosFAhPDrOoGzD-41" value="Slice 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="260" y="495" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BZ9-GxFosFAhPDrOoGzD-42" value="slice1扩容后会修改slice2的元素" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="530" y="325" width="190" height="30" as="geometry" />
+        <mxCell id="BZ9-GxFosFAhPDrOoGzD-42" value="slice1append后会修改slice2的元素" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="520" y="325" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
