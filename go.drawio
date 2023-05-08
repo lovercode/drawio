@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T15:03:53.453Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="6hqSaJ0RZoqx6ItoMehY" version="21.1.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-08T15:06:00.557Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="VyWRcxN4ll-nNuQVrj5Z" version="21.1.7" type="github" pages="2">
   <diagram name="slice" id="216m6hlyoADe2_kHkdoC">
     <mxGraphModel dx="1434" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -314,8 +314,8 @@
         <mxCell id="DiDGP0v_4oADGfC8cgor-62" value="schedule" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="721" y="670" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DiDGP0v_4oADGfC8cgor-64" value="&lt;div style=&quot;text-align: left;&quot;&gt;4.M被唤醒，继续执行调度函数（此时已经是另外一个线程了）&lt;br&gt;先从本地p查询&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="820" y="660" width="360" height="40" as="geometry" />
+        <mxCell id="DiDGP0v_4oADGfC8cgor-64" value="&lt;div style=&quot;text-align: left;&quot;&gt;4.M被唤醒，继续执行调度函数（此时已经是另外一个线程了）&lt;br&gt;先从本地p查询可运行的g，本地没有，从全局获取一部分，&lt;br&gt;还没有从其他P偷一部分&lt;br&gt;&lt;br&gt;开始执行G，没有可运行的G，会再次阻塞&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="840" y="630" width="360" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
