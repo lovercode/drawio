@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-24T05:12:47.294Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="Wh4ueis048flml1HlXId" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-24T05:13:30.136Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="lfyu-SDqYv4xij2Zrpb3" version="22.1.3" type="github">
   <diagram name="第 1 页" id="0J95AYAEyh2etBmY4kA0">
     <mxGraphModel dx="2074" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,7 +90,10 @@
         <mxCell id="eKYV_cTzxE7bns25VUIC-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eKYV_cTzxE7bns25VUIC-42" target="eKYV_cTzxE7bns25VUIC-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eKYV_cTzxE7bns25VUIC-42" value="其他" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="eKYV_cTzxE7bns25VUIC-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eKYV_cTzxE7bns25VUIC-42" target="eKYV_cTzxE7bns25VUIC-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eKYV_cTzxE7bns25VUIC-42" value="其他&lt;br&gt;..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="700" y="250" width="75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="eKYV_cTzxE7bns25VUIC-29" value="内网安全访问" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -98,6 +101,9 @@
         </mxCell>
         <mxCell id="eKYV_cTzxE7bns25VUIC-46" value="其他外网服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="880" y="100" width="77" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eKYV_cTzxE7bns25VUIC-49" value="其他内网服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="699" y="100" width="77" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
