@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T16:39:25.504Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="eNEuNQNuTd6zse7-EmvP" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T17:06:30.035Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="J_ZccMwl4WvC4wIjknUs" version="24.4.10" type="github">
   <diagram name="第 1 页" id="vhNQBWm2JfFw_72hFJQ7">
     <mxGraphModel dx="3029" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -118,7 +118,7 @@
         <mxCell id="ontqGAHZmMhJFroZLa5W-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ontqGAHZmMhJFroZLa5W-52" target="ontqGAHZmMhJFroZLa5W-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PPWBLTVVHqmccEwtyOto-27" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;进房/房间内心跳&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ontqGAHZmMhJFroZLa5W-53">
+        <mxCell id="PPWBLTVVHqmccEwtyOto-27" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;进退房：3w/s&lt;br&gt;心跳约10s一次：3w/s&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ontqGAHZmMhJFroZLa5W-53">
           <mxGeometry x="-0.2642" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -335,6 +335,20 @@
         </mxCell>
         <mxCell id="PPWBLTVVHqmccEwtyOto-24" value="30w同时在线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="-335" y="168" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PPWBLTVVHqmccEwtyOto-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PPWBLTVVHqmccEwtyOto-38" target="ontqGAHZmMhJFroZLa5W-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PPWBLTVVHqmccEwtyOto-40" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;其他读：5w/s&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PPWBLTVVHqmccEwtyOto-39">
+          <mxGeometry x="-0.1057" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPWBLTVVHqmccEwtyOto-38" value="其他服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-582" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PPWBLTVVHqmccEwtyOto-42" value="单房间10w+用户&lt;br&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;单机&lt;/span&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;2w/s写&lt;br&gt;1.5w/s读&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-192" y="750" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
