@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T17:22:07.228Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="7Nww-Eewj1dqfnIS_eSl" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T17:24:01.125Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="hIIBhofdApfpn6ky4Z09" version="24.4.10" type="github">
   <diagram name="第 1 页" id="vhNQBWm2JfFw_72hFJQ7">
     <mxGraphModel dx="3029" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -96,7 +96,9 @@
           <mxGeometry x="-347" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ontqGAHZmMhJFroZLa5W-33" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;建连/心跳&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ontqGAHZmMhJFroZLa5W-32" target="ontqGAHZmMhJFroZLa5W-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="0.0105" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ontqGAHZmMhJFroZLa5W-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ontqGAHZmMhJFroZLa5W-32" target="ontqGAHZmMhJFroZLa5W-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
