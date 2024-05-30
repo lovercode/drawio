@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T06:01:28.834Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="qis6GphRn9JVPTKpJptu" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T06:02:37.622Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="1Qx4IKNlDEVc9q9BTEsW" version="24.4.10" type="github">
   <diagram name="第 1 页" id="vhNQBWm2JfFw_72hFJQ7">
     <mxGraphModel dx="2069" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -187,6 +187,9 @@
         <mxCell id="6s_Ftt0ad8FDjy7rFycN-13" value="uid/score" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-193.99" y="880" width="62" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="6s_Ftt0ad8FDjy7rFycN-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6s_Ftt0ad8FDjy7rFycN-14" target="6s_Ftt0ad8FDjy7rFycN-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6s_Ftt0ad8FDjy7rFycN-14" value="uid/score" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-134" y="880" width="62" height="40" as="geometry" />
         </mxCell>
@@ -240,6 +243,9 @@
         </mxCell>
         <mxCell id="6s_Ftt0ad8FDjy7rFycN-35" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-295" y="918" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6s_Ftt0ad8FDjy7rFycN-38" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.cloud_services_configuration_file;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="875" width="40" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
