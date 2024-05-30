@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T17:06:30.035Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="J_ZccMwl4WvC4wIjknUs" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T17:22:00.827Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="0Js7NRwmDBykJ567QrWx" version="24.4.10" type="github">
   <diagram name="第 1 页" id="vhNQBWm2JfFw_72hFJQ7">
     <mxGraphModel dx="3029" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15,6 +15,11 @@
         </mxCell>
         <mxCell id="ontqGAHZmMhJFroZLa5W-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-502" y="560" width="430" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="PPWBLTVVHqmccEwtyOto-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ontqGAHZmMhJFroZLa5W-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="789.9473684210529" y="900" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ontqGAHZmMhJFroZLa5W-1" value="连接管理" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="730" y="390" width="120" height="60" as="geometry" />
@@ -152,9 +157,9 @@
         <mxCell id="ontqGAHZmMhJFroZLa5W-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ontqGAHZmMhJFroZLa5W-2" target="ontqGAHZmMhJFroZLa5W-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PPWBLTVVHqmccEwtyOto-36" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;查询连接节点&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ontqGAHZmMhJFroZLa5W-75">
+        <mxCell id="PPWBLTVVHqmccEwtyOto-36" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;cache miss&lt;br&gt;查询连接节点&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ontqGAHZmMhJFroZLa5W-75">
           <mxGeometry x="0.1519" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="24" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ontqGAHZmMhJFroZLa5W-78" value="mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
@@ -347,8 +352,11 @@
         <mxCell id="PPWBLTVVHqmccEwtyOto-38" value="其他服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-582" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PPWBLTVVHqmccEwtyOto-42" value="单房间10w+用户&lt;br&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;单机&lt;/span&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;2w/s写&lt;br&gt;1.5w/s读&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="PPWBLTVVHqmccEwtyOto-42" value="单房间最多10w+用户&lt;br&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;单机&lt;/span&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;2w/s写&lt;br&gt;1.5w/s读&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-192" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PPWBLTVVHqmccEwtyOto-48" value="优化：&lt;br&gt;tnet，一个连接一个G的模式，改成epoll加协程池&lt;div&gt;内存下降40%+&lt;br&gt;cpu下降40%+&lt;br&gt;单机连接数提升100%&lt;br&gt;压测百万连接&lt;br&gt;理论上还能支持更多，但是机器限制，运维同学不建议，怕影响其他业务&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="585" y="920" width="410" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
