@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T05:40:31.429Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="i9Ik9vVa_YBEbi34Je5m" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T05:46:19.223Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="5eCDdaJO6aHJpksSOs53" version="24.4.10" type="github">
   <diagram name="第 1 页" id="vhNQBWm2JfFw_72hFJQ7">
     <mxGraphModel dx="3207" dy="954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -115,7 +115,7 @@
             <mxPoint x="-30" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S7VBq_mGZm_weLfs4T1y-3" value="性能瓶颈" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="S7VBq_mGZm_weLfs4T1y-1">
+        <mxCell id="S7VBq_mGZm_weLfs4T1y-3" value="可能成为性能瓶颈" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="S7VBq_mGZm_weLfs4T1y-1">
           <mxGeometry x="0.1599" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -214,6 +214,11 @@
         </mxCell>
         <mxCell id="PPWBLTVVHqmccEwtyOto-32" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;可靠消息再推送&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6s_Ftt0ad8FDjy7rFycN-3" vertex="1" connectable="0">
           <mxGeometry x="0.4064" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7VBq_mGZm_weLfs4T1y-7" value="单个uid路由到一台机器上&lt;br&gt;缓存命中高" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6s_Ftt0ad8FDjy7rFycN-3">
+          <mxGeometry x="-0.7491" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
