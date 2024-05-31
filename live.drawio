@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T14:50:16.840Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="2Y-Hp0cbCTRsyxXe9UO7" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T15:01:28.001Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="b3f4WijUy0T9GUlagQE6" version="24.4.10" type="github">
   <diagram name="第 1 页" id="vhNQBWm2JfFw_72hFJQ7">
-    <mxGraphModel dx="3029" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3190" dy="972" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -378,13 +378,13 @@
         <mxCell id="PPWBLTVVHqmccEwtyOto-48" value="&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;gonet-&amp;gt;tnet网络模型优化&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;内存下降45%&lt;/li&gt;&lt;li&gt;cpu下降20%&lt;/li&gt;&lt;li&gt;单机连接数提升100%&lt;/li&gt;&lt;li&gt;压测百万连接&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
           <mxGeometry x="860" y="660" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="PPWBLTVVHqmccEwtyOto-52" value="待优化：连接层支持组播方案&lt;br&gt;解决超大直播间网卡瓶颈" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="PPWBLTVVHqmccEwtyOto-52" value="待优化：连接层支持组播方案&lt;br&gt;解决超大直播间网卡瓶颈" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
           <mxGeometry x="980" y="400" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PPWBLTVVHqmccEwtyOto-54" value="1.单房间消息合并&lt;br&gt;2.消息分级，消息丢弃&lt;br&gt;3.超大房间限流，降级丢弃" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
           <mxGeometry x="-12" y="545" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="S7VBq_mGZm_weLfs4T1y-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;全量拉取，100w房间，目前最大10w&lt;/span&gt;&lt;/div&gt;&lt;div&gt;数据量8mb，千兆网卡最大qps=1000/8/8=15qps&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="S7VBq_mGZm_weLfs4T1y-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;全量拉取，100w房间，目前最大10w&lt;/span&gt;&lt;/div&gt;&lt;div&gt;数据量8mb，千兆网卡最大qps=1000/8/8=15qps&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
           <mxGeometry x="-60" y="690" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S7VBq_mGZm_weLfs4T1y-8" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.hard_disk;" parent="1" vertex="1">
