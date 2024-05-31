@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T05:47:31.480Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="_lnYVeDPJGnf4yBfSUZH" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T05:48:48.930Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="uTCPKg8HL1orAUH--Vgi" version="24.4.10" type="github">
   <diagram name="第 1 页" id="vhNQBWm2JfFw_72hFJQ7">
     <mxGraphModel dx="3207" dy="954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,7 +99,7 @@
         <mxCell id="ontqGAHZmMhJFroZLa5W-19" value="成员set" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-237" y="615" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ontqGAHZmMhJFroZLa5W-22" value="成员列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="ontqGAHZmMhJFroZLa5W-22" value="成员列表服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-502" y="560" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ontqGAHZmMhJFroZLa5W-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ontqGAHZmMhJFroZLa5W-23" target="ontqGAHZmMhJFroZLa5W-21" edge="1">
@@ -370,7 +370,7 @@
         <mxCell id="PPWBLTVVHqmccEwtyOto-20" value="成员set" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-785" y="615" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PPWBLTVVHqmccEwtyOto-21" value="成员列表&lt;br&gt;异地容灾" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="PPWBLTVVHqmccEwtyOto-21" value="成员列表服务&lt;br&gt;异地容灾" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-1050" y="560" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PPWBLTVVHqmccEwtyOto-24" value="30w同时在线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
