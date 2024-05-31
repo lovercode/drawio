@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T12:42:07.136Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="1F20RvIfkaLDI4G5sNZQ" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T12:55:42.645Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="ynXPRmImjHB7ZEo3z_71" version="24.4.10" type="github">
   <diagram name="第 1 页" id="vhNQBWm2JfFw_72hFJQ7">
     <mxGraphModel dx="2960" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,8 +51,10 @@
             <mxPoint x="-1" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PPWBLTVVHqmccEwtyOto-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ontqGAHZmMhJFroZLa5W-3" target="PPWBLTVVHqmccEwtyOto-54" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="3prwEOfupgX3p4FRmlQC-8" value="千万级别消息扩散" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ontqGAHZmMhJFroZLa5W-3" target="PPWBLTVVHqmccEwtyOto-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ontqGAHZmMhJFroZLa5W-3" value="消息投递服务" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="390" width="120" height="60" as="geometry" />
@@ -76,9 +78,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S7VBq_mGZm_weLfs4T1y-5" value="uid根据投递" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ontqGAHZmMhJFroZLa5W-6" vertex="1" connectable="0">
+        <mxCell id="S7VBq_mGZm_weLfs4T1y-5" value="根据uid分key投递" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ontqGAHZmMhJFroZLa5W-6" vertex="1" connectable="0">
           <mxGeometry x="-0.4862" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="23" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ontqGAHZmMhJFroZLa5W-8" value="消息队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -167,7 +169,7 @@
         <mxCell id="ontqGAHZmMhJFroZLa5W-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ontqGAHZmMhJFroZLa5W-66" target="ontqGAHZmMhJFroZLa5W-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PPWBLTVVHqmccEwtyOto-29" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;单播/组播/广播&lt;/span&gt;&lt;br style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;消息合并/分级&lt;/span&gt;&lt;br style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;消息限流/丢弃&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ontqGAHZmMhJFroZLa5W-68" vertex="1" connectable="0">
+        <mxCell id="PPWBLTVVHqmccEwtyOto-29" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;单播/组播/广播&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ontqGAHZmMhJFroZLa5W-68" vertex="1" connectable="0">
           <mxGeometry x="-0.0211" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -392,7 +394,7 @@
         <mxCell id="PPWBLTVVHqmccEwtyOto-38" value="其他服务" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-582" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PPWBLTVVHqmccEwtyOto-42" value="单房间最多10w+用户&lt;br&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;单机&lt;/span&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;2w/s写&lt;br&gt;1.5w/s读&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="PPWBLTVVHqmccEwtyOto-42" value="单房间最多10w用户&lt;br&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;单机&lt;/span&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;2w/s写&lt;br&gt;1.5w/s读&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-192" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PPWBLTVVHqmccEwtyOto-48" value="优化：&lt;br&gt;tnet，一个连接一个G的模式，改成epoll加协程池&lt;div&gt;内存下降40%+&lt;br&gt;cpu下降40%+&lt;br&gt;单机连接数提升100%&lt;br&gt;压测百万连接&lt;br&gt;理论上还能支持更多，但是机器限制，运维同学不建议，怕影响其他业务&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -401,8 +403,8 @@
         <mxCell id="PPWBLTVVHqmccEwtyOto-52" value="待优化：连接层支持组播方案&lt;br&gt;解决超大直播间网卡瓶颈" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1135" y="400" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PPWBLTVVHqmccEwtyOto-54" value="1.消息合并，消息压缩&lt;br&gt;2.消息分级，消息丢弃&lt;br&gt;3.房间限流，降级丢弃" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-20" y="525" width="140" height="60" as="geometry" />
+        <mxCell id="PPWBLTVVHqmccEwtyOto-54" value="1.房间消息合并&lt;br&gt;2.消息分级，消息丢弃&lt;br&gt;3.超大房间限流，降级丢弃" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
+          <mxGeometry x="-12" y="545" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S7VBq_mGZm_weLfs4T1y-2" value="全量拉取，100w房间，&lt;div&gt;数据量8mb，最大qos=1000/8/8=15qps&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-42" y="675" width="230" height="40" as="geometry" />
