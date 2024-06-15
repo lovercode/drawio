@@ -1,9 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2024-06-15T09:19:22.315Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.5.4" etag="dI_jBlJ8cmJS__ivJJaU" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-15T09:35:52.980Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="NrGjFrX2QkQJjuPsR3RZ" version="24.5.4" type="github">
   <diagram name="第 1 页" id="0W2pajUsiTxkzqOTjmbE">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="190" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-22" value="A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="190" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-23" value="B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="190" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BQNzw-oAEa__O3OTHwPF-24" target="BQNzw-oAEa__O3OTHwPF-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-24" value="胜" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="190" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-26" value="A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="230" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-27" value="B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="230" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-28" value="败" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="230" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BQNzw-oAEa__O3OTHwPF-30" target="BQNzw-oAEa__O3OTHwPF-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-30" value="关联场馆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-32" value="个人比赛记录与场馆关联&lt;div&gt;给商家留住用户&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="110" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="200" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-43" value="A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-44" value="排名1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-46" value="B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="240" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-47" value="排名2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BQNzw-oAEa__O3OTHwPF-49" value="场馆提供排名展示&lt;div&gt;场馆之间可以pk&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
