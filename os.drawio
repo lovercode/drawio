@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-20T16:56:06.508Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="H12QWad3GBermrpmYWqh" version="24.5.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-06-20T17:00:48.819Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="r_U0jCNSpQgPTD5b7Xia" version="24.5.5" type="github" pages="3">
   <diagram name="第 1 页" id="2g30mpVbXMez-msLuD0V">
     <mxGraphModel dx="372" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -280,12 +280,20 @@
     </mxGraphModel>
   </diagram>
   <diagram id="p4sebYNAy8_5tSElw4aO" name="第 3 页">
-    <mxGraphModel dx="2501" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2501" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="fK8UzQ2kbfZhwUA4l-QM-1" value="&lt;span style=&quot;color: rgb(17, 24, 39); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; font-weight: 600; text-align: start; text-wrap: wrap; background-color: rgb(249, 250, 251);&quot;&gt;0xBB478718&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="140" y="60" width="110" height="30" as="geometry" />
+        <mxCell id="fK8UzQ2kbfZhwUA4l-QM-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fK8UzQ2kbfZhwUA4l-QM-1" target="fK8UzQ2kbfZhwUA4l-QM-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fK8UzQ2kbfZhwUA4l-QM-49" value="分段&lt;div&gt;段基址0x10000000&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fK8UzQ2kbfZhwUA4l-QM-48">
+          <mxGeometry x="-0.125" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fK8UzQ2kbfZhwUA4l-QM-1" value="&lt;span style=&quot;color: rgb(17, 24, 39); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; font-weight: 600; text-align: start; text-wrap: wrap; background-color: rgb(249, 250, 251);&quot;&gt;0xAB478718&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-60" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fK8UzQ2kbfZhwUA4l-QM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="fK8UzQ2kbfZhwUA4l-QM-5">
           <mxGeometry relative="1" as="geometry">
@@ -351,7 +359,7 @@
           <mxGeometry x="640" y="260" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fK8UzQ2kbfZhwUA4l-QM-32" value="进程内变量看到的地址：虚拟地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="60" width="200" height="30" as="geometry" />
+          <mxGeometry x="-75" y="-60" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fK8UzQ2kbfZhwUA4l-QM-33" value="&lt;span style=&quot;color: rgb(17, 24, 39); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; font-weight: 600; text-align: left; background-color: rgb(249, 250, 251);&quot;&gt;...&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="414" y="568" width="136" height="30" as="geometry" />
@@ -388,6 +396,9 @@
         </mxCell>
         <mxCell id="fK8UzQ2kbfZhwUA4l-QM-46" value="每个进程有自己的cr3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-110" y="460" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fK8UzQ2kbfZhwUA4l-QM-47" value="&lt;span style=&quot;color: rgb(17, 24, 39); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; font-weight: 600; text-align: start; text-wrap: wrap; background-color: rgb(249, 250, 251);&quot;&gt;0xBB478718&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="50" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
