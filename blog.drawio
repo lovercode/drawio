@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T16:46:11.377Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="bb4zbC4aJ877diQt1HxG" version="24.7.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-17T16:47:47.780Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="gPHu1mmtq6J2ttmO4n9w" version="24.7.1" type="github" pages="7">
   <diagram name="指导" id="3OdGgRUTSrl1FB_T8DPc">
     <mxGraphModel dx="2074" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1229,7 +1229,7 @@
         <mxCell id="YX9sJXMZKpT_xXmp8NBR-69" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="860" y="1310" width="1680" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="YX9sJXMZKpT_xXmp8NBR-70" value="spsc-d-e1-e2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="YX9sJXMZKpT_xXmp8NBR-70" value="spsc-de-e中-eEnd" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="860" y="1310" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YX9sJXMZKpT_xXmp8NBR-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" vertex="1" parent="1">
@@ -1271,7 +1271,7 @@
         <mxCell id="YX9sJXMZKpT_xXmp8NBR-235" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="860" y="2110" width="1680" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="YX9sJXMZKpT_xXmp8NBR-236" value="spsc-e1-d-e2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="YX9sJXMZKpT_xXmp8NBR-236" value="spsc-e中-de-eEnd" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="860" y="2110" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YX9sJXMZKpT_xXmp8NBR-327" value="" style="group" vertex="1" connectable="0" parent="1">
