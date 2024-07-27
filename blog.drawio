@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2024-07-27T08:39:51.200Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="OjFRVIyidFSnP7_UyIgk" version="24.7.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.5" pages="7">
   <diagram name="指导" id="3OdGgRUTSrl1FB_T8DPc">
     <mxGraphModel dx="1205" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="phAC42A0NwbeB7xmSzJY-2" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="60" y="585" width="1150" height="370" as="geometry" />
+          <mxGeometry x="380" y="585" width="610" height="370" as="geometry" />
         </mxCell>
         <mxCell id="t2noQLQF8Sf8ENMVV9-u-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;dashed=1;" parent="phAC42A0NwbeB7xmSzJY-2" vertex="1">
-          <mxGeometry width="1150" height="370" as="geometry" />
+          <mxGeometry width="610.0000000000001" height="370" as="geometry" />
         </mxCell>
         <mxCell id="t2noQLQF8Sf8ENMVV9-u-37" value="知识获取" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="phAC42A0NwbeB7xmSzJY-2" vertex="1">
-          <mxGeometry width="80" height="30" as="geometry" />
+          <mxGeometry width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="phAC42A0NwbeB7xmSzJY-1" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="60" y="80" width="1150" height="370" as="geometry" />
