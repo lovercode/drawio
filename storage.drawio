@@ -47,6 +47,9 @@
             <mxPoint x="43" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="gfp4Hjq4H9kUBLCGHOVR-52" value="同步写副本" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gfp4Hjq4H9kUBLCGHOVR-5" target="gfp4Hjq4H9kUBLCGHOVR-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="gfp4Hjq4H9kUBLCGHOVR-5" value="分片1-主" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="450" width="80" height="20" as="geometry" />
         </mxCell>
@@ -62,7 +65,7 @@
         <mxCell id="gfp4Hjq4H9kUBLCGHOVR-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gfp4Hjq4H9kUBLCGHOVR-10" target="gfp4Hjq4H9kUBLCGHOVR-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gfp4Hjq4H9kUBLCGHOVR-39" value="fsync持久化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gfp4Hjq4H9kUBLCGHOVR-38">
+        <mxCell id="gfp4Hjq4H9kUBLCGHOVR-39" value="fsync持久化&lt;br&gt;决定数据安全性" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gfp4Hjq4H9kUBLCGHOVR-38">
           <mxGeometry x="-0.0009" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -75,13 +78,13 @@
             <mxPoint x="50" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gfp4Hjq4H9kUBLCGHOVR-25" value="refrsh的周期&lt;div&gt;决定了可检索的时效性&lt;br&gt;segment生成后就不会修改&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-175" y="525" width="170" height="60" as="geometry" />
+        <mxCell id="gfp4Hjq4H9kUBLCGHOVR-25" value="refrsh的周期&lt;div&gt;决定了可检索的时效性&lt;br&gt;segment生成后就不会修改&lt;br&gt;可配置buffer大小&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-175" y="520" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gfp4Hjq4H9kUBLCGHOVR-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gfp4Hjq4H9kUBLCGHOVR-28" target="gfp4Hjq4H9kUBLCGHOVR-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gfp4Hjq4H9kUBLCGHOVR-28" value="translog保证了数据的安全&lt;br&gt;崩溃恢复&lt;br&gt;WAL，mysql，redis存储的常规设计" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="gfp4Hjq4H9kUBLCGHOVR-28" value="translog保证了数据的安全&lt;br&gt;崩溃恢复&lt;br&gt;WAL，mysql，redis存储的常规设计" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="350" y="555" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gfp4Hjq4H9kUBLCGHOVR-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
@@ -126,7 +129,7 @@
         <mxCell id="gfp4Hjq4H9kUBLCGHOVR-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gfp4Hjq4H9kUBLCGHOVR-9" target="gfp4Hjq4H9kUBLCGHOVR-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gfp4Hjq4H9kUBLCGHOVR-36" value="flush持久化到磁盘" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gfp4Hjq4H9kUBLCGHOVR-35">
+        <mxCell id="gfp4Hjq4H9kUBLCGHOVR-36" value="flush持久化到磁盘&lt;br&gt;默认30分钟" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gfp4Hjq4H9kUBLCGHOVR-35">
           <mxGeometry x="-0.1886" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -139,6 +142,21 @@
         </mxCell>
         <mxCell id="gfp4Hjq4H9kUBLCGHOVR-46" value="checkpoint" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="850" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gfp4Hjq4H9kUBLCGHOVR-49" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="380" width="290" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="gfp4Hjq4H9kUBLCGHOVR-50" value="数据节点2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="380" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gfp4Hjq4H9kUBLCGHOVR-51" value="分片1-副" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="450" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gfp4Hjq4H9kUBLCGHOVR-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="gfp4Hjq4H9kUBLCGHOVR-55" target="gfp4Hjq4H9kUBLCGHOVR-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gfp4Hjq4H9kUBLCGHOVR-55" value="index.translog.durability&lt;br&gt;request：每次都fsync&lt;br&gt;async：异步刷" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="350" y="740" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
