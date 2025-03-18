@@ -189,6 +189,9 @@
         <mxCell id="-ScDWW_V6jiQ_rjggYxO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-ScDWW_V6jiQ_rjggYxO-2" target="-ScDWW_V6jiQ_rjggYxO-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-ScDWW_V6jiQ_rjggYxO-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-ScDWW_V6jiQ_rjggYxO-2" target="-ScDWW_V6jiQ_rjggYxO-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-ScDWW_V6jiQ_rjggYxO-2" value="文档分片" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="420" width="120" height="60" as="geometry" />
         </mxCell>
@@ -234,7 +237,7 @@
         <mxCell id="-ScDWW_V6jiQ_rjggYxO-18" value="语意分片" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="460" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-ScDWW_V6jiQ_rjggYxO-20" value="固定大小" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-ScDWW_V6jiQ_rjggYxO-20" value="固定窗口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="370" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-ScDWW_V6jiQ_rjggYxO-22" value="把段落进行embedding&lt;div&gt;然后计算段落之间的相似度&lt;/div&gt;&lt;div&gt;把大于谋阈值的合并在一起&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
@@ -243,8 +246,29 @@
         <mxCell id="-ScDWW_V6jiQ_rjggYxO-23" value="embedding模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="550" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-ScDWW_V6jiQ_rjggYxO-27" value="固定大小" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-ScDWW_V6jiQ_rjggYxO-27" value="固定窗口+重叠" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="290" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-ScDWW_V6jiQ_rjggYxO-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="290" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-ScDWW_V6jiQ_rjggYxO-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="290" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-ScDWW_V6jiQ_rjggYxO-32" value="重叠" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="290" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-ScDWW_V6jiQ_rjggYxO-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="760" width="660" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="-ScDWW_V6jiQ_rjggYxO-34" value="统计型语言模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="760" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ScDWW_V6jiQ_rjggYxO-35" value="N-gram" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ScDWW_V6jiQ_rjggYxO-36" value="&lt;div&gt;&lt;b&gt;原理：&lt;/b&gt;&lt;/div&gt;句子：w1,w2,w3,w4,w5,w6,w7&lt;div&gt;P(w1...w7) = p(w1)p(w2|w1)p(w3|w,w1)-&amp;gt;所有的条件概率之积&lt;/div&gt;&lt;div&gt;一般不会是整个句子计算，所以会限制N个词，所以是N-gram，一般可能取N=5&lt;br&gt;&lt;br&gt;&lt;b&gt;局限性：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;无法处理长句子，因为更长意味着计算量更大&lt;br&gt;没有考虑词的内在联系：比如apple在不同语境下可能表示水果或者手机&lt;br&gt;&lt;br&gt;&lt;b&gt;原因：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;编码的向量是one-hot（独热编码），向量的维度等于词典的大小，每个向量&lt;b&gt;两两正交&lt;/b&gt;&lt;/div&gt;&lt;div&gt;上万或者百万的词典，会导致&lt;b&gt;维度爆炸&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="840" width="470" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
